@@ -103,3 +103,20 @@ class ValorNegativoException implements Exception {
     return "ValorNegativoException: $valor";
   }
 }
+
+
+/* 
+void main(){
+  TaxaCalculador().calcular(10);
+}
+abstract class Calculador {
+  int calcular(int numero);
+}
+
+class TaxaCalculador implements Calculador {
+  @override
+  int calcular(int numero){
+    throw UnimplementedError();
+  }
+}
+*/
