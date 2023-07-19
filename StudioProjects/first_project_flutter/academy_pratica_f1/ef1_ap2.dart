@@ -67,41 +67,41 @@ class _RandomButtonPageState extends State<RandomButtonPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
+            const Text(
               'Clique no botão correto!',
               style: TextStyle(fontSize: 20),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 if (!gameOver) {
                   checkButton('A');
                 }
               },
-              child: Text('A'),
+              child: const Text('A'),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
                 if (!gameOver) {
                   checkButton('B');
                 }
               },
-              child: Text('B'),
+              child: const Text('B'),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
                 if (!gameOver) {
                   checkButton('C');
                 }
               },
-              child: Text('C'),
+              child: const Text('C'),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Text(
               message,
-              style: TextStyle(fontSize: 20),
+              style: const TextStyle(fontSize: 20),
             ),
           ],
         ),
